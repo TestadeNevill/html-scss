@@ -100,7 +100,8 @@ section {
 
 section.features-section {
   background: #929da8;
-  color: white;
+  background-image: url("../images/DOWCityInspo1.jpg");
+  color: black;
 }
 
 ul.features-list {
@@ -142,18 +143,19 @@ ul.features-list li:before {
 .testimonials-section li {
   background: #006bd6;
   text-align: center;
-  padding: 2em 1em;
+  padding: 2em .5em;
   width: 80%;
   margin: 0 auto 5em auto;
-  border-radius: 1em;
+
 }
 
 .testimonials-section li img {
-  width: 5em;
-  height: 5em;
-  border: 5px solid #00bdb6;
-  border-radius: 50%;
-  margin-top: -4.5em;
+  width: 10em;
+  height: 10em;
+  align-items: center;
+}
+.testimonials-section cite{
+  align-content: center;
 }
 
 h2 {
