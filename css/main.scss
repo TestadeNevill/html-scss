@@ -87,7 +87,7 @@ section{
         margin-top: 1em;
 
         img{
-            max-width: 3%;
+            max-width: 5%;
             margin-left: .5em;
             padding-right: .3em;
         }
@@ -340,7 +340,7 @@ nav.menu-btn{
               margin: 3em 3em 0 5em;
 
                img {
-                max-width: 6%;
+                // max-width: auto;
 
               h1{
                   font-size: 3em;
@@ -411,4 +411,4 @@ nav.menu-btn{
         }
     }
   }
-
+}

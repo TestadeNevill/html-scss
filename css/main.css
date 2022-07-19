@@ -313,66 +313,66 @@ nav li a:hover {
   .hero .container .left-col {
     margin: 3em 3em 0 5em;
   }
-  .hero .container .left-col h1 {
+  .hero .container .left-col img h1 {
     font-size: 3em;
     width: 90%;
   }
-  .hero-img {
+  .hero .container .hero-img {
     width: 50%;
   }
-  .hero-cta {
+  .hero .container .hero-cta {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .primary-cta {
+  .hero .container .primary-cta {
     margin-right: 1em;
   }
-  ul.features-list {
+  .hero .container ul.features-list {
     display: block;
     margin-left: 5em;
   }
-  ul.features-list li {
+  .hero .container ul.features-list li {
     font-size: 1.4em;
   }
-  ul.features-list li:before {
+  .hero .container ul.features-list li:before {
     width: 30px;
     height: 30px;
   }
-  .features-section {
+  .hero .container .features-section {
     position: relative;
   }
-  .features-section img {
+  .hero .container .features-section img {
     display: block;
     position: absolute;
     right: 0;
     width: 350px;
     bottom: -2em;
   }
-  .testimonials-section ul {
+  .hero .container .testimonials-section ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .testimonials-section ul li {
+  .hero .container .testimonials-section ul li {
     margin: 0 1em;
   }
-  .contact-section {
+  .hero .container .contact-section {
     position: relative;
   }
-  .contact-section .container {
+  .hero .container .contact-section .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .contact-right {
+  .hero .container .contact-right {
     position: absolute;
     right: 0;
     top: 0;
     width: 45%;
     height: 100%;
   }
-  .contact-right iframe {
+  .hero .container .contact-right iframe {
     height: 100%;
   }
 }
