@@ -90,8 +90,9 @@ section {
 .left-col .watch-video-cta img {
   max-width: 3%;
   margin-left: .5em;
-  padding-right: .3em;
+  padding-right: .1em;
 }
+
 
 .hero-img {
   max-width: 40%;
@@ -291,6 +292,21 @@ nav li a:hover {
     background-color: var(--primary-color);
     color: white;
   }
+  .hero-cta {
+    display: block;
+    margin-top: 1em;
+  }
+
+  .left-col .watch-video-cta {
+    padding-left: .5em;
+    white-space: nowrap;
+    text-overflow: clip;
+  }
+  .left-col .watch-video-cta img {
+    max-width: 15%;
+    margin-left: 1em;
+    padding-right: .3em;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -326,7 +342,7 @@ nav li a:hover {
     display: flex;
   }
   .hero .container .primary-cta {
-    margin-right: 1em;
+    margin-right: .5em;
   }
   .hero .container ul.features-list {
     display: block;
@@ -375,5 +391,7 @@ nav li a:hover {
   .hero .container .contact-right iframe {
     height: 100%;
   }
+
+
 }
 /*# sourceMappingURL=main.css.map */
